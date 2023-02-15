@@ -1,90 +1,3 @@
-.shopping-cart {
-	position: absolute;
-	right: -6rem;
-	top: -50px;
-	border-radius: .5rem;
-	width: 25rem;
-	background-color: white;
-	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	display: none;
-	z-index: 100;
-}
-
-.shopping-cart .fa-retweet {
-	font-size: 1.2rem;
-	position: absolute;
-	right: 0.2rem;
-	cursor: pointer;
-	color: #666;
-	margin: 1.5rem;
-	/* display: none; */
-	z-index: 101;
-}
-
-.shopping-cart .box {
-	display: flex;
-	align-items: center;
-	gap: 1rem;
-	position: relative;
-	margin: 1rem;
-}
-
-.shopping-cart .box img {
-	height: 8rem;
-	width: 8rem;
-}
-
-.shopping-cart .box .fa {
-	font-size: 1.2rem;
-	position: absolute;
-	right: 0.2rem;
-	cursor: pointer;
-	color: #666;
-	transform: translate(-50%);
-}
-
-.shopping-cart .box .fa:hover {
-	color: green;
-}
-
-.shopping-cart .box .content h3 {
-	color: black;
-	font-size: 1.1rem;
-	padding: 0 0 1rem 0;
-	text-align: left;
-}
-
-.shopping-cart .box .content span {
-	font-size: 1.2rem;
-	color: #666;
-}
-
-.shopping-cart .box .content .quantity {
-	padding-left: 1rem;
-}
-
-.shopping-cart .total {
-	font-size: 1.5rem;
-	padding: 1rem 0;
-	text-align: center;
-	color: black;
-}
-
-.shopping-cart .btn {
-	margin-top: 0.5rem;
-	width: 100%;
-	border-radius: none !important;
-	display: inline;
-	padding: 0.8rem 1.8rem;
-	font-size: 1rem;
-	font-weight: 600;
-	background-color: #7fad39;
-	cursor: pointer;
-}
-
-.shopping-cart .btn:hover {
-	color: white;
-}
 
 html,
 body {
@@ -801,12 +714,12 @@ ol {
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 4px;
-	color: #7fad39;
+	color: #666;
 }
 
 .hero__text h2 {
 	font-size: 46px;
-	color: #252525;
+	color: #7fad39;
 	line-height: 52px;
 	font-weight: 700;
 	margin: 10px 0;
