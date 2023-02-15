@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .shopping-cart {
+            position: absolute;
+            right: -2rem !important;
+            top: 50px;
+            border-radius: .5rem;
+            width: 30rem;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* display: none; */
+        }
+        .shopping-cart .box{
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            position: relative;
+            margin: 1rem ;
+        }
+        .shopping-cart .box img{
+            height: 8rem;
+            width: 8rem;
+        }
+        .shopping-cart .box .fa{
+            font-size: 1.2rem;
+            position: absolute;
+            right: 2rem;
+            cursor: pointer;
+            color: #666;
+            transform: translate(-50%);
+        }
+        .shopping-cart .box .fa:hover{
+            color: green;
+        }
+        .shopping-cart .box  .content h3{
+            color: black;
+            font-weight: 600;
+            font-size: 1.7rem;
+            padding: 0 0 1rem 0;
+        }
+        .shopping-cart .box  .content span{
+            font-size: 1.2rem;
+            color: #666;
+        }
+        .shopping-cart .box  .content .quantity{
+            padding-left: 1rem;
+        }
+        .shopping-cart .total{
+            font-size: 1.5rem;
+            padding: 1rem 0;
+            text-align: center;
+            color: black;
+        }
+        .shopping-cart .btn{
+            margin-top: 0.5rem;
+            width: 100%;
+            border-radius: none !important;
+            display: inline;
+            padding: 0.8rem  1.8rem;
+            font-size: 1rem;
+            font-weight: 600;
+            background-color: #7fad39;
+            cursor: pointer;
+        }
+        .shopping-cart .btn:hover{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <a href="/">Cart</a>
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fa fa-bars"></i>
+            <img src="./img/product/product-5.jpg" width="120">
+            <div class="content">
+                <h3>Product 05</h3>
+                <span class="price">$ 5.99/</span>
+                <span class="quantity">Qty - 1</span>
+            </div>
+        </div>
+        <div class="total">Total : $5.99/-</div>
+        <button class="btn">CHECKOUT</button>
+    </div>
+</body>
+
+</html>
